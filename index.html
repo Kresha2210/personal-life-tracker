@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kresha | Daily Life Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="main-container">
+
+<div class="date-bar">
+    <button id="prevDay"><</button>
+    <span id="dateDisplay"></span>
+    <button id="nextDay">></button>
+</div>
+
+<h1>🌱 My Daily Life Tracker</h1>
+
+<!-- 1. Meal Tracker -->
+<section class="meal">
+    <h2>🍽️ Have you done your meal?</h2>
+    <label><input type="checkbox" id="breakfast"> Breakfast</label>
+    <label><input type="checkbox" id="lunch"> Lunch</label>
+    <label><input type="checkbox" id="snack"> Evening Snack</label>
+    <label><input type="checkbox" id="dinner"> Dinner</label>
+</section>
+
+<!-- 2. DSA Section -->
+<section class="dsa">
+    <h2>📘 DSA Progress</h2>
+
+    <h3>LeetCode</h3>
+    <input type="number" id="lc-easy" placeholder="Easy">
+    <input type="number" id="lc-medium" placeholder="Medium">
+    <input type="number" id="lc-hard" placeholder="Hard">
+
+    <h3>NeetCode</h3>
+    <input type="number" id="nc-easy" placeholder="Easy">
+    <input type="number" id="nc-medium" placeholder="Medium">
+    <input type="number" id="nc-hard" placeholder="Hard">
+
+    <h3>Codeforces</h3>
+    <input type="number" id="cf-easy" placeholder="Easy">
+    <input type="number" id="cf-medium" placeholder="Medium">
+    <input type="number" id="cf-hard" placeholder="Hard">
+    <textarea id="dsaa" placeholder="Anything new which you done........ ??">   </textarea>
+    
+</section>
+
+<!-- 3. English Challenge -->
+<section class="English">
+    <h2>🎧 English Challenge</h2>
+    <label><input type="checkbox" id="watching"> Watched Lesson Video</label>
+    <label><input type="checkbox" id="listening"> Listening Practice</label>
+    <label><input type="checkbox" id="speaking"> Speaking Practice</label>
+    <label><input type="checkbox" id="writing"> Writing Practice (any GD toppic)</label>
+    <textarea id="dsaa" placeholder="Anything new which you done........ ??">   </textarea>
+
+    <!-- <textarea id="gd-topic" placeholder="Write today's GD topic..."></textarea> -->
+</section>
+
+<!-- 4. Technical Skills -->
+<section class="Tech">
+    <h2>🚀 Technical Skills</h2>
+    <label><input type="checkbox" id="html"> HTML</label>
+    <label><input type="checkbox" id="css"> CSS</label>
+    <label><input type="checkbox" id="js"> JavaScript</label>
+    <label><input type="checkbox" id="react"> React.js</label>
+    <label><input type="checkbox" id="figma"> Figma</label>
+    <label><input type="checkbox" id="git"> Git / GitHub</label>
+    <textarea id="dsaa" placeholder="Anything new which you done........ ??">   </textarea>
+
+</section>
+
+<!-- 5. Interview Preparation -->
+<section class="Inter">
+    <h2>📚 Interview Preparation</h2>
+    <textarea id="dbms" placeholder="DBMS learning today..."></textarea>
+    <textarea id="sql" placeholder="SQL practice today..."></textarea>
+    <textarea id="oops" placeholder="OOPS concepts today..."></textarea>
+    <textarea id="cn" placeholder="Computer Networking today..."></textarea>
+    <textarea id="dsaa" placeholder="Anything new which you done........ ??">   </textarea>
+
+</section>
+
+<!-- 6. Anything Happen -->
+<section class="Any">
+    <h2>📝 Anything Happen?</h2>
+    <textarea id="special" placeholder="Something special today..."></textarea>
+    <textarea id="bad" placeholder="Something bad today..."></textarea>
+</section>
+
+<!-- 7. Motivation -->
+<section class="motivation">
+    <h2 id="quote"></h2>
+    <button onclick="newQuote()">New Quote</button>
+</section>
+
+<script src="data/quotes.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+</section>

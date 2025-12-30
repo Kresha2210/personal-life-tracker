@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.main-container{
+background: rgb(201, 215, 170);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.meal{
+    background: rgb(128, 192, 182);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.dsa{
+    background: rgb(191, 138, 166);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.English{
+    background: rgb(135, 160, 197);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.Tech{
+    background: rgb(227, 184, 145);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+.Inter{
+background: rgb(138, 191, 157);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.Any{
+    background: rgb(224, 146, 146);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+    color: #34495e;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin: 8px 0;
+}
+
+input[type="number"] {
+    width: 90px;
+    margin: 5px;
+    padding: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+}
+
+.motivation {
+
+    text-align: center;
+    background: linear-gradient(to right, #c7a5eb, #6690d9);
+    color: rgb(183, 149, 149);
+    
+}
+
+.motivation button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: white;
+    color: #2d436b;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.date-bar {
+   
+    font-weight: bold;
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 20px;
+}
+.date-bar button {
+    border: none;
+    background: #4b325d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
