@@ -42,7 +42,6 @@ This project is designed to help me stay consistent and disciplined in my everyd
 ## 📁 Project Structure
 
 personal-life-tracker/
-│
 ├── index.html
 ├── style.css
 ├── script.js
