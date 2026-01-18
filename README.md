@@ -41,6 +41,7 @@ This project is designed to help me stay consistent and disciplined in my everyd
 
 ## 📁 Project Structure
 
+''' plaintext
 personal-life-tracker/
 ├── index.html
 ├── style.css
@@ -48,17 +49,17 @@ personal-life-tracker/
 ├── data/
 │ └── quotes.js
 └── README.md
-
+'''
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Kresha Vora**
 
 ---
 
-## 📌 Note
+##  Note
 
 This is a personal productivity project created for self-improvement and learning purposes.
 
