@@ -41,7 +41,7 @@ This project is designed to help me stay consistent and disciplined in my everyd
 
 ## 📁 Project Structure
 
-''' plaintext
+```plaintext
 personal-life-tracker/
 ├── index.html
 ├── style.css
@@ -49,7 +49,7 @@ personal-life-tracker/
 ├── data/
 │ └── quotes.js
 └── README.md
-'''
+```
 
 ---
 
