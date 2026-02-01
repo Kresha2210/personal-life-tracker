@@ -1,8 +1,13 @@
-// date handling
+// =====================
+// DATE HANDLING
+// =====================
 let currentDate = new Date();
 
 function formatDate(date) {
-    return date.toISOString().split("T")[0]; // YYYY-MM-DD
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
 }
 
 function showDate() {
@@ -11,9 +16,9 @@ function showDate() {
         currentDate.toLocaleDateString("en-US", options);
 }
 
-showDate();
-
-// load data for the current date
+// =====================
+// LOAD DATA
+// =====================
 function loadData() {
     const dateKey = formatDate(currentDate);
 
@@ -29,7 +34,9 @@ function loadData() {
     });
 }
 
-// save data for the current date
+// =====================
+// SAVE DATA
+// =====================
 function saveData(el) {
     const dateKey = formatDate(currentDate);
     const key = `${dateKey}-${el.id}`;
@@ -41,13 +48,17 @@ function saveData(el) {
     }
 }
 
-// Attach listeners
+// =====================
+// EVENT LISTENERS
+// =====================
 document.querySelectorAll("input, textarea").forEach(el => {
     el.addEventListener("input", () => saveData(el));
     el.addEventListener("change", () => saveData(el));
 });
 
-// day navigation
+// =====================
+// DAY NAVIGATION
+// =====================
 document.getElementById("prevDay").addEventListener("click", () => {
     currentDate.setDate(currentDate.getDate() - 1);
     showDate();
@@ -60,13 +71,17 @@ document.getElementById("nextDay").addEventListener("click", () => {
     loadData();
 });
 
-
-// motivation quotes
+// =====================
+// MOTIVATION
+// =====================
 function newQuote() {
     const random = Math.floor(Math.random() * quotes.length);
     document.getElementById("quote").innerText = quotes[random];
 }
 
+// =====================
 // INITIAL LOAD
+// =====================
+showDate();
 loadData();
 newQuote();
