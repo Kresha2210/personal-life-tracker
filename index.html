@@ -23,6 +23,10 @@
     <button onclick="newQuote()">New Quote</button>
 </section>
 
+<section class="contest">
+    <h2>🏆 Contest Information</h2>
+    <textarea id="contest-info" placeholder="Write today's contest information..."></textarea>
+</section>
 
 <!-- 1. Meal Tracker -->
 <section class="meal">
@@ -51,6 +55,11 @@
     <input type="number" id="cf-easy" placeholder="Easy">
     <input type="number" id="cf-medium" placeholder="Medium">
     <input type="number" id="cf-hard" placeholder="Hard">
+
+      <h3>SQL Questions</h3>
+    <input type="number" id="sql-easy" placeholder="Easy">
+    <input type="number" id="sql-medium" placeholder="Medium">
+    <input type="number" id="sql-hard" placeholder="Hard">
     <textarea id="a" placeholder="Anything new which you done........ ??">   </textarea>
     
 </section>
@@ -70,12 +79,6 @@
 <!-- 4. Technical Skills -->
 <section class="Tech">
     <h2>🚀 Technical Skills</h2>
-    <!-- <label><input type="checkbox" id="html"> HTML</label>
-    <label><input type="checkbox" id="css"> CSS</label>
-    <label><input type="checkbox" id="js"> JavaScript</label>
-    <label><input type="checkbox" id="react"> React.js</label> -->
-    <!-- <label><input type="checkbox" id="figma"> Figma</label> -->
-    <!-- <label><input type="checkbox" id="git"> Git / GitHub</label> -->
     <textarea id="c" placeholder="HTML,CSS,JS,React............ ??">   </textarea>
 
 </section>
@@ -83,13 +86,41 @@
 <!-- 5. Interview Preparation -->
 <section class="Inter">
     <h2>📚 Interview Preparation</h2>
-    <textarea id="dbms" placeholder="DBMS learning today..."></textarea>
-    <textarea id="sql" placeholder="SQL practice today..."></textarea>
-    <textarea id="oops" placeholder="OOPS concepts today..."></textarea>
-    <textarea id="cn" placeholder="Computer Networking today..."></textarea>
-    <textarea id="d" placeholder="Anything new which you done........ ??">   </textarea>
 
+    <fieldset class="interview-fieldset">
+        <legend>Core Subjects</legend>
+
+        <div class="interview-grid">
+            <div>
+                <h4>DBMS</h4>
+                <textarea id="dbms" placeholder="DBMS learning today..."></textarea>
+            </div>
+
+            <div>
+                <h4>OOPs</h4>
+                <textarea id="oops" placeholder="OOPS concepts today..."></textarea>
+            </div>
+
+            <div>
+                <h4>Computer Networking</h4>
+                <textarea id="cn" placeholder="Computer Networking today..."></textarea>
+            </div>
+
+            <div>
+                <h4>System Programming</h4>
+                <textarea id="sp" placeholder="System Programming today..."></textarea>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="interview-fieldset">
+        <legend>Mock Interviews Practice</legend>
+            <textarea id="feedback" placeholder="Feedback from mock interview..."></textarea>
+    </fieldset>
+
+    <textarea id="interview-notes" placeholder="Anything new you learned today?"></textarea>
 </section>
+
 
 <!-- 6. Anything Happen -->
 <section class="Any">
@@ -107,7 +138,6 @@
 
 </body>
 </html>
-
 
 
 
