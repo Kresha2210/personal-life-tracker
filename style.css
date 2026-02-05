@@ -18,6 +18,14 @@ background: rgb(201, 215, 170);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+.contest{
+    background: rgb(230, 147, 168);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
 
 .meal{
     background: rgb(128, 192, 182);
@@ -59,6 +67,30 @@ background: rgb(138, 191, 157);
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+.interview-fieldset {
+    border: 2px solid rgba(0,0,0,0.15);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.interview-fieldset legend {
+    padding: 0 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.interview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.interview-grid h4 {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
 
 .Any{
     background: rgb(224, 146, 146);
